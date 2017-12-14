@@ -3,49 +3,41 @@ using System.IO;
 
 namespace bulint_todo_app
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Printer(args);
-        }
-
-        public static void Printer(string[] array)
-        {
-            foreach (var argument in array)
+            if (args.Length == 0)
             {
-                if (argument == null)
+                Printer.PrintUsage();
+            }
+            else if (args[0] == "-l")
+            {
+                if (args.Length > 1)
                 {
-                    Console.WriteLine("Command Line Todo application");
-                    Console.WriteLine("=============================");
-                    Console.WriteLine("\nCommand line arguments:");
-                    Console.WriteLine("-l   Lists all the tasks");
-                    Console.WriteLine("-a   Adds a new task");
-                    Console.WriteLine("-r   Removes a task");
-                    Console.WriteLine("-c   Completes a task");
+                    Console.WriteLine("Unsupported argument");
                 }
-                else if (argument == "-l")
+                else
                 {
-                    FileHandler();
+                    FileHandler.ReadAllTaskFromTheFile();
                 }
             }
-        }
-
-        public static void FileHandler()
-        {
-            string path = @"C:\Users\L\greenfox\bulint-todo-app\theFile.txt";
-            string[] content = File.ReadAllLines(path);
-            if (content.Length == 0)
+            else if (args[0] == "-a")
             {
-                Console.WriteLine("No todos for today! :)");
-            }
-            else
-            {
-                for (int i = 0; i < content.Length; i++)
+                if (args.Length > 1)
                 {
-                    Console.WriteLine((i + 1) + " - " + content[i]);
+                    for (int i = 0; i < args.Length; i++)
+                    {
+                        FileHandler.AddNewTask(args[i]);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Unable to add: no task provided");
                 }
             }
+            Console.ReadLine();
         }
     }
 }
+

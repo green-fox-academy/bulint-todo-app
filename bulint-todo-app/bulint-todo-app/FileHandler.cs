@@ -3,7 +3,7 @@ using System.IO;
 
 namespace bulint_todo_app
 {
-    class FileHandler
+    public class FileHandler
     {
         public static void ReadAllTaskFromTheFile()
         {
@@ -21,5 +21,15 @@ namespace bulint_todo_app
                 }
             }
         }
+
+        public static void AddNewTask(string input)
+        {
+            string path = @"C:\Users\L\greenfox\bulint-todo-app\theFile.txt";
+            using (StreamWriter outputFile = new StreamWriter(path, true))
+            {
+                outputFile.WriteLine(input);
+            }
+        }
     }
 }
+

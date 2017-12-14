@@ -8,3 +8,4 @@ C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\ne
 C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.AssemblyInfo.cs
 C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.dll
 C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.pdb
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.csprojResolveAssemblyReference.cache
