@@ -1,0 +1,10 @@
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\bin\Debug\netcoreapp2.0\bulint-todo-app.deps.json
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\bin\Debug\netcoreapp2.0\bulint-todo-app.runtimeconfig.json
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\bin\Debug\netcoreapp2.0\bulint-todo-app.runtimeconfig.dev.json
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\bin\Debug\netcoreapp2.0\bulint-todo-app.dll
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\bin\Debug\netcoreapp2.0\bulint-todo-app.pdb
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.csproj.CoreCompileInputs.cache
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.AssemblyInfoInputs.cache
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.AssemblyInfo.cs
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.dll
+C:\Users\L\greenfox\bulint-todo-app\bulint-todo-app\bulint-todo-app\obj\Debug\netcoreapp2.0\bulint-todo-app.pdb
